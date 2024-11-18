@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendrier de l'Avent</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Calendrier de l'Avent</h1>
+          </header>
+          <main>
+            <div id="calendrier" aria-label="Calendrier de l'Avent"> <!-- aria-label pour une description textuelle à l'élément div -->
+              <!-- Les fenêtres du calendrier seront générées ici -->
+              <div class="fenetre" data-jour="1">1</div>
+              <div class="fenetre" data-jour="2">2</div>
+              <div class="fenetre" data-jour="3">3</div>
+              <div class="fenetre" data-jour="4">4</div>
+              <div class="fenetre" data-jour="5">5</div>
+              <div class="fenetre" data-jour="6">6</div>
+              <div class="fenetre" data-jour="7">7</div>
+              <div class="fenetre" data-jour="8">8</div>
+              <div class="fenetre" data-jour="9">9</div>
+              <div class="fenetre" data-jour="10">10</div>
+              <div class="fenetre" data-jour="11">11</div>
+              <div class="fenetre" data-jour="12">12</div>
+              <div class="fenetre" data-jour="13">13</div>
+              <div class="fenetre" data-jour="14">14</div>
+              <div class="fenetre" data-jour="15">15</div>
+              <div class="fenetre" data-jour="16">16</div>
+              <div class="fenetre" data-jour="17">17</div>
+              <div class="fenetre" data-jour="18">18</div>
+              <div class="fenetre" data-jour="19">19</div>
+              <div class="fenetre" data-jour="20">20</div>
+              <div class="fenetre" data-jour="21">21</div>
+              <div class="fenetre" data-jour="22">22</div>
+              <div class="fenetre" data-jour="23">23</div>
+              <div class="fenetre" data-jour="24">24</div>
+            </div>
+          </main>
+    </div>
+
+
+    
+
+
+    <!-- Conteneur pour la fenêtre modale, en dehors de wrapper pour l'isoler des styles de ce conteneur --> 
+     <div id="modal" class="hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span> <!-- &times; = caractère spécial -->
+            <p id="modal-message">Message de Noël ici !</p>
+        </div>
+    </div>
+
+<!-- la ligne ajoutée juste avant la balise fermante </body> as usual --> 
+    <!-- Le fichier JavaScript doit être chargé après le contenu HTML pour s'assurer que tous les éléments sont disponibles dans le DOM lorsque le script s'exécute. -->  
+    <script src="js/script.js"></script>
+</body>
+</html>
