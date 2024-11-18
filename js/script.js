@@ -82,9 +82,3 @@ fenetres.forEach((fenetre, index) => {  // on parcourt le tableau fenetres.
 
 
 });
-
-
-
-
-
-
