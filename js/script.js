@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
         fenetre.dataset.jour = jour;
 
         // Attribuer une couleur aléatoire à la fenêtre
-        const couleurs = ['#ff5733', '#33ff57', '#3357ff', '#ff33a1', '#f7f33f'];
+        const couleurs = ['#08558B', '#347CBC', '#ACE0F8', '#6F93AF', '#D4BAA4', '#4C3626'];
         fenetre.style.backgroundColor = couleurs[Math.floor(Math.random() * couleurs.length)];
 
         // Ajouter un événement de clic pour ouvrir la modale avec un message spécifique
